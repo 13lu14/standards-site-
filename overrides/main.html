@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    window.difyChatbotConfig = {
+      token: "c8fbSJCyqH5u7sUN",
+      baseUrl: "http://localhost",
+      isDev: false
+    };
+  </script>
+  <script src="http://localhost/embed.min.js" id="c8fbSJCyqH5u7sUN" defer></script>
+{% endblock %}
+

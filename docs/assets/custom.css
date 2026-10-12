@@ -1,0 +1,17 @@
+.index-actions {
+  margin: 1.5rem 0;
+}
+
+.index-actions .md-button {
+  margin-right: 0.6rem;
+}
+
+#dify-chatbot-bubble-button {
+  background-color: #155eef !important;
+}
+
+#dify-chatbot-bubble-window {
+  width: 24rem !important;
+  height: 40rem !important;
+}
+

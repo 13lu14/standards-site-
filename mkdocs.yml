@@ -13,8 +13,6 @@ theme:
     - navigation.instant
     - navigation.path
     - navigation.top
-    - search.highlight
-    - search.share
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -31,8 +29,7 @@ theme:
         icon: material/weather-sunny
         name: 切换到浅色模式
 
-plugins:
-  - search
+plugins: []
 
 hooks:
   - hooks/fix_asset_paths.py

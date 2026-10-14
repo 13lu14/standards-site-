@@ -2,6 +2,7 @@ site/
 __pycache__/
 *.pyc
 .venv/
+.runtime/
 .DS_Store
 Thumbs.db
 .idea/

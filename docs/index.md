@@ -1,11 +1,11 @@
 ---
 title: 交通规范文档库
-description: 已审核规范的本地查阅与智能问答入口
+description: 已审核规范的公开查阅入口
 ---
 
 # 交通规范文档库
 
-这里收录了已完成质量审核的 341 份交通规范 Markdown 文档，支持全文检索、公式渲染和智能问答。你可以从下方入口进入规范列表，也可以直接点击右下角的助手提问。
+这里收录了已完成质量审核的 341 份交通规范 Markdown 文档，支持全文检索和公式渲染。你可以从下方入口进入规范列表。
 
 <div class="index-actions">
   <a class="md-button md-button--primary" href="standards/">浏览全部规范</a>
@@ -16,7 +16,6 @@ description: 已审核规范的本地查阅与智能问答入口
 - 文档数量：341 份
 - 来源：已审核通过的 Markdown 交付副本
 - 质量检查：公式、表格公式、图片链接等关键检查全部通过
-- 智能助手：由 Dify 提供对话问答
 
 ## 使用说明
 
@@ -34,11 +33,19 @@ description: 已审核规范的本地查阅与智能问答入口
 
     保留 Markdown 结构，支持标题导航、表格和公式显示。
 
--   :material-chat-question: **智能问答**
+-   :material-download-outline: **文档使用**
 
     ---
 
-    点击右下角助手按钮，直接用自然语言提问规范内容。
+    可直接阅读页面内容，也可下载对应的 Markdown 原文件。
+
+</div>
+
+<div id="local-assistant-note" hidden markdown>
+
+## 本地智能问答
+
+你正在通过本地入口访问。右下角会显示 Dify 助手，可以直接用自然语言提问规范内容。
 
 </div>
 

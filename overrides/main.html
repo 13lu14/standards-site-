@@ -4,20 +4,21 @@
   {{ super() }}
   <script>
     (() => {
-      const localHosts = new Set(["localhost", "127.0.0.1", "::1"]);
-      if (!localHosts.has(window.location.hostname)) return;
+      // Public address of the Dify assistant (Cloudflare quick tunnel).
+      // When the tunnel address changes, update this line and redeploy.
+      const difyBaseUrl = "https://beds-thickness-fort-describes.trycloudflare.com";
 
-      const localNote = document.getElementById("local-assistant-note");
-      if (localNote) localNote.hidden = false;
+      const note = document.getElementById("assistant-note");
+      if (note) note.hidden = false;
 
       window.difyChatbotConfig = {
         token: "c8fbSJCyqH5u7sUN",
-        baseUrl: "http://localhost",
+        baseUrl: difyBaseUrl,
         isDev: false
       };
 
       const script = document.createElement("script");
-      script.src = "http://localhost/embed.min.js";
+      script.src = difyBaseUrl + "/embed.min.js";
       script.id = "c8fbSJCyqH5u7sUN";
       script.defer = true;
       document.head.appendChild(script);

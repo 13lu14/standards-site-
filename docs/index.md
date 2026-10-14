@@ -41,11 +41,11 @@ description: 已审核规范的公开查阅入口
 
 </div>
 
-<div id="local-assistant-note" hidden markdown>
+<div id="assistant-note" hidden markdown>
 
-## 本地智能问答
+## 智能问答助手
 
-你正在通过本地入口访问。右下角会显示 Dify 助手，可以直接用自然语言提问规范内容。
+右下角会显示问答助手，直接用自然语言提问规范内容即可。
 
 </div>
 
